@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import pickle
-import string
 import math
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -12,7 +10,7 @@ from sklearn.tree import export_graphviz
 import pydotplus
 
 #Importing Dataset
-df3 = pd.read_csv('C:/Users/Gaurav Mittal/Desktop/577/New folder/Working_data.csv')
+df3 = pd.read_csv('Working_data.csv')
 df3.isnull().sum(axis=0) 
 data =df3.dropna()
 ##data.info()
